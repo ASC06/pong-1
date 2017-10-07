@@ -1,7 +1,5 @@
 Game game;
 
-// gareth is making me do this :(
-
 void setup()
 {
   size(800, 500);

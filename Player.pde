@@ -41,4 +41,19 @@ class Player
       rect(x, y, barWidth, barLength);
     }
   }
+  
+  public void moveUp()
+  {
+    
+  }
+  
+  public void moveDown()
+  {
+    
+  }
+  
+  public void stop()
+  {
+    
+  }
 }

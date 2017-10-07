@@ -20,4 +20,32 @@ class Game
     player1.draw();
     player2.draw();
   }
+  
+  void moveUpPlayer1()
+  {
+  }
+  
+  void moveDownPlayer1() 
+  {
+    
+  }
+  
+  void stopPlayer1()
+  {
+    
+  }
+  
+  void moveUpPlayer2()
+  {
+  }
+  
+  void moveDownPlayer2() 
+  {
+    
+  }
+  
+  void stopPlayer2()
+  {
+    
+  }
 }
