@@ -55,11 +55,13 @@ class Player
   public void moveUp()
   {
     this.isMoving = true;
+    direction = MovementDirection.UP;
   }
   
   public void moveDown()
   {
     this.isMoving = true;
+    direction = MovementDirection.DOWN;
   }
   
   public void stop()
