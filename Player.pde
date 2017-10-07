@@ -3,8 +3,18 @@ enum Side
   LEFT, RIGHT
 }
 
+enum MovementDirection
+{
+  UP, DOWN
+}
+
 class Player
 {
+  boolean isMoving = false;
+  
+  // Default movement direction is defined here 
+  MovementDirection direction = MovementDirection.UP;
+  
   Side side;
   
   int barLength = 140;
@@ -44,16 +54,16 @@ class Player
   
   public void moveUp()
   {
-    
+    this.isMoving = true;
   }
   
   public void moveDown()
   {
-    
+    this.isMoving = true;
   }
   
   public void stop()
   {
-    
+    this.isMoving = false;
   }
 }

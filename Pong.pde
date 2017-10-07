@@ -21,15 +21,15 @@ void keyPressed()
 {
   if (keyCode == UP)
   {
-    println("moveUpPlayer2()");
+    game.moveUpPlayer2();
   } else if (keyCode == DOWN) 
   {
-    println("moveDownPlayer2()");
+    game.moveDownPlayer2();
   } else if (key == 'w')
   {
-    println("moveUpPlayer1()");
+    game.moveUpPlayer1();
   } else if (key == 's')
   {
-    println("moveDownPlayer1()");
+    game.moveDownPlayer1();
   }
 }
